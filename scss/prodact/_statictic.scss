@@ -40,3 +40,31 @@
         }
     }
 }
+
+
+@media(max-width:800px){
+    .statictic{
+        .ctatictic__wrapper{
+         .statictic__block{
+            flex-wrap: wrap;
+            gap: 20px;
+            .statictic__card{
+                width: 45%;
+            }
+         }   
+        }
+    }
+}
+
+
+@media(max-width:500px){
+    .statictic{
+        .ctatictic__wrapper{
+         .statictic__block{
+            flex-wrap: wrap;
+            .statictic__card{
+                width: 100%;
+            }
+         }   
+        }
+    }}
