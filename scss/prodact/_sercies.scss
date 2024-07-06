@@ -31,6 +31,21 @@
             display: flex;
             justify-content: space-between;
             .serviec__card{
+                transition: .5s;
+                &:hover{
+                    background: #08546C;
+                        button{
+                            transition: .5s;
+                            background: #FFA800;
+                        }
+                        .serviec__content{
+                            p:nth-child(1){
+                                transition: .5s;
+                                color: #fff;
+
+                            }
+                        }
+                }
                 box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
                 width: 24%;
                 padding: 30px 28px;
