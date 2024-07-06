@@ -3,8 +3,8 @@ const btn = document.querySelector(".btn");
 const faSolid = document.querySelector(".fa-solid.fa-xmark");
 const header = document.querySelector(".header")
 const btnTop = document.querySelector(".btnTop")
-
-
+const faBars = document.querySelector(".fa-solid.fa-bars")
+ 
 
 
 window.addEventListener("scroll", () => {
@@ -23,7 +23,10 @@ window.addEventListener("scroll", () => {
 
 
 
-
+faBars.addEventListener("dblclick", () => {
+    sidebarOpen();
+    console.log("Assalomu alaykum");
+});
 
 faSolid.addEventListener("click", sidebarExit);
 
