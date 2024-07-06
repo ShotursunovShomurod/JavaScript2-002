@@ -1,0 +1,61 @@
+.hero1 {
+  width: 100%;
+  background: #043e51;
+  .hero1__wrapper {
+    width: 100%;
+    display: flex;
+    padding-bottom: 250px;
+    .hero1__context {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .hero1__content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        button {
+          width: 195px;
+          height: 65px;
+          border-radius: 30px;
+          font-size: 24px;
+          font-weight: 400;
+          background: #094556;
+          color: #fff;
+          border: none;
+        }
+        p:nth-child(2) {
+          font-size: 64px;
+          font-weight: 700;
+          color: #fff;
+        }
+        p:nth-child(3) {
+          max-width: 450px;
+          font-weight: 400;
+          color: #849499;
+        }
+        .hero1__btn {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          gap: 50px;
+          button {
+            width: 137px;
+            height: 51px;
+            border-radius: 25px;
+            background: #ffa63a;
+            border: none;
+            color: #fff;
+            font-size: 20px;
+          }
+          a {
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

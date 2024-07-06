@@ -1,0 +1,42 @@
+.statictic{
+    width: 100%;
+    .ctatictic__wrapper{
+        margin-top: -150px;
+        background: #fff;
+        border-radius: 30px;
+        width: 100%;
+        padding: 64px 54px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        .ctatictic__text{
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            color: 
+            #265A6A;
+            font-weight: 600;
+        }
+        .statictic__block{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .statictic__card{
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                p:nth-child(1){
+                    color: #265A6A;
+                    font-size: 48px;
+                    font-weight: 600;
+                }
+                p:nth-child(2){
+                    color: #265A6A;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
