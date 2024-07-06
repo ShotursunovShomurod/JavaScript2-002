@@ -3,11 +3,18 @@ document.addEventListener("DOMContentLoaded", () => {
     const btn = document.querySelector(".btn");
     const input = document.querySelector(".input");
     const form = document.querySelector(".form");
+const submit = document.querySelector(".submit")
+
+
+
 
     // Formani yuborilishining oldini olish
     form.addEventListener("submit", (event) => {
         event.preventDefault();
     });
+
+
+
 
     btn.addEventListener("click", () => {
         let inputvalue = input.value;
