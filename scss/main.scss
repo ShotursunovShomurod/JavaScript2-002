@@ -7,13 +7,10 @@
 @import"prodact/portfolio";
 @import"prodact/manager";
 @import"prodact/footer";
+@import"prodact/sidebar";
+@import"prodact/btnTop";
 
 
 
 // block2
 @import"omadshow/_omadshow.scss";
-
-
-body{
-    height: 700vh;
-}

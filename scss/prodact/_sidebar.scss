@@ -1,0 +1,38 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    transition: .5s;
+    right: -70%;
+    width: 70%;
+    height: 100%;
+    background: dodgerblue;
+    padding: 20px;
+    z-index: 999;
+    i{
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: #fff;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .navbar__collection {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      .navbar__item {
+        list-style: none;
+        color: #a1b5bb;
+        font-weight: 600;
+        transition: .5s;
+        &:hover{
+          cursor: pointer;
+          color: #FFA800;
+        }
+      }
+    }
+  }
+  .sidebar.show{
+    right: 0;
+  }

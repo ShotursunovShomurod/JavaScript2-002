@@ -1,69 +1,84 @@
-.navbar {
+.header{
   width: 100%;
-  background: #043E51;
-  .navbar__wrapper {    
-    padding: 20px 0;
+  background: #043e51;
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100px;
+  transition: .3s;
+  .navbar {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .navbar__content {
-        .navbar__collection {
-        width: 100%;
-        display: flex;
-        gap: 50px;
-        .navbar__item {
-          list-style: none;
-          color: #a1b5bb;
-          font-weight: 600;
-          transition: .5s;
-          &:hover{
-            cursor: pointer;
-            color: #FFA800;
+    .navbar__wrapper {    
+      padding: 20px 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .navbar__content {
+          .navbar__collection {
+          width: 100%;
+          display: flex;
+          gap: 50px;
+          .navbar__item {
+            list-style: none;
+            color: #a1b5bb;
+            font-weight: 600;
+            transition: .5s;
+            &:hover{
+              cursor: pointer;
+              color: #FFA800;
+            }
           }
         }
       }
-    }
-    .navbar__btn {
-      display: flex;
-      align-items: center;
-      i{
-        display: none;
-        font-size: 24px;
-        color: #fff;
-        &:hover{
-          cursor: pointer;
+      .navbar__btn {
+        display: flex;
+        align-items: center;
+        i{
+          display: none;
+          font-size: 24px;
+          color: #fff;
+          &:hover{
+            cursor: pointer;
+          }
         }
-      }
-      button {
-        width: 140px;
-        height: 58px;
-        border-radius: 25px;
-        border: none;
-        background: #145e76;
-        color: #fff;
-        font-size: 19px;
-        &:hover{
-          cursor: pointer;
+        button {
+          width: 140px;
+          height: 58px;
+          border-radius: 25px;
+          border: none;
+          background: #145e76;
+          color: #fff;
+          font-size: 19px;
+          &:hover{
+            cursor: pointer;
+          }
         }
       }
     }
   }
 }
-
+.header.shrink{
+  background: #043e5189;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
 
 @media(max-width:800px){
-  .navbar{
-    .navbar__wrapper{
-      .navbar__content{
-        display: none;
-      }
-      .navbar__btn{
-        i{
-          display: block;
-        }
-        button{
+  .header{
+    .navbar{
+      .navbar__wrapper{
+        .navbar__content{
           display: none;
+        }
+        .navbar__btn{
+          i{
+            display: block;
+          }
+          button{
+            display: none;
+          }
         }
       }
     }
